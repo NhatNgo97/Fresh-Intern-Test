@@ -6,6 +6,15 @@ module.exports = {
   ],
   plugins: [],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        '3xl': '0.3rem 0.3rem black',
+        login: '1rem 1rem #FDC62D',
+      },
+      fontFamily: {
+        grotesk: ['"Space Grotesk"', 'sans-serif'],
+        mono: ['"Space Mono"', 'monospace'],
+      },
+    },
   },
 };
