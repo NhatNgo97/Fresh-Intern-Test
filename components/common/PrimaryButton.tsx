@@ -7,7 +7,7 @@ interface Props {
 
 const PrimaryButton: FC<Props> = ({ text, onClick }) => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col font-mono">
       <button
         className="bg-[#FDC62D] py-2 border-black border-2 font-bold hover:shadow-3xl"
         onClick={onClick}
